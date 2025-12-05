@@ -12,3 +12,9 @@ Caracteristicas del Arduino MEGA
 
 Caracteristicas del Arduino LEONARDO
 <img width="793" height="53" alt="image" src="https://github.com/user-attachments/assets/d7d14881-6345-427a-b46f-2dc0d2aa670b" />
+
+Arduino sirve como una plataforma electrónica de código abierto que permite crear proyectos interactivos.
+
+El lenguaje que utiliza seria C y C++
+
+Arduino IDE es el programa oficial que se utiliza para escribir, editar y cargar el código en las placas Arduino.
