@@ -51,22 +51,22 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
 
 
  <H2>Diagrama de la primera actividad </H2>
- <img width="834" height="594" alt="image" src="https://github.com/user-attachments/assets/62e6785a-e867-4cad-afb3-d81d598c7ab0" />
+ <br> <img width="834" height="594" alt="image" src="https://github.com/user-attachments/assets/62e6785a-e867-4cad-afb3-d81d598c7ab0" />
  <H2>El codigo </H2>
  <br>El codigo lo que hace es dictarle el tiempo de encendido y de apagado
-<img width="895" height="400" alt="image" src="https://github.com/user-attachments/assets/8d9bae24-adb5-4cce-9f11-78919fe59499" />
+ <br><img width="895" height="400" alt="image" src="https://github.com/user-attachments/assets/8d9bae24-adb5-4cce-9f11-78919fe59499" />
 
 <H2>Como se ve IRL</H2>
-<img width="629" height="839" alt="image" src="https://github.com/user-attachments/assets/10c0218a-8da7-4d9d-9825-f0767d120473" />
+ <br><img width="629" height="839" alt="image" src="https://github.com/user-attachments/assets/10c0218a-8da7-4d9d-9825-f0767d120473" />
 
 <H2>Práctica 2: SEMÁFORO</H2>
 
 <H2>Diagrama de la primera actividad </H2>
-<img width="751" height="571" alt="image" src="https://github.com/user-attachments/assets/d080b47b-c0e4-4b19-a434-8de7cd015c99" />
+ <br><img width="751" height="571" alt="image" src="https://github.com/user-attachments/assets/d080b47b-c0e4-4b19-a434-8de7cd015c99" />
 
  <H2>El codigo </H2>
  <br>El codigo lo que hace es dictarle el tiempo de encendido y de apagado a los 3 leds haciendo que parezca un semaforo
-<img width="292" height="351" alt="image" src="https://github.com/user-attachments/assets/2d252c55-b276-44a2-940c-a43ca14bcee3" />
+ <br><img width="292" height="351" alt="image" src="https://github.com/user-attachments/assets/2d252c55-b276-44a2-940c-a43ca14bcee3" />
 
 <H2>Como se ve IRL</H2>
-<img width="551" height="735" alt="image" src="https://github.com/user-attachments/assets/9077eb3e-16e5-4d3e-ae0d-b2ad3ea0a3c2" />
+ <br><img width="551" height="735" alt="image" src="https://github.com/user-attachments/assets/9077eb3e-16e5-4d3e-ae0d-b2ad3ea0a3c2" />
