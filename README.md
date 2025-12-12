@@ -43,6 +43,12 @@ Caracteristicas del Arduino LEONARDO
 <b>Qué quiere decir la línea delay(1000);?</b>
 <br> Detiene la ejecución del programa durante el tiempo indicado en milisegundos
 
+<b>Selecciona el extremo del jumper que está en el pin 2 y conéctalo donde dice 5V. ¿Qué ocurre con el led: parpadea?</b>
+  <br>Sí que parpadea ya que el codigo le envia la señal de ir encendiendo y apagon y el cable jumper le da la energia.
+<b>Conecta cada cable o jumper al polo (-) o GND y al polo (+)
+de la pila. ¿Qué ocurre con el led: parpadea?</b>
+<br>Sí que parpadea ya que el codigo le envia la señal de ir encendiendo y apagon y el cable jumper le da la energia.
+
 
  <H2>Diagrama de la primera actividad </H2>
  <img width="834" height="594" alt="image" src="https://github.com/user-attachments/assets/62e6785a-e867-4cad-afb3-d81d598c7ab0" />
