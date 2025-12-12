@@ -30,4 +30,14 @@ Caracteristicas del Arduino LEONARDO
 <br>Arduino IDE es el programa oficial que se utiliza para escribir, editar y cargar el código en las placas Arduino.
 
 
+<H1>Actividad Blink+Semáforo</H1>
 
+<b>¿Qué son el void setup and void loop?</b>
+<br>Void setup es una función que se ejecuta una sola vez al iniciar el programa.
+<br>Void loop es la función que Arduino ejecuta una y otra vez en un ciclo infinito.
+
+<b>¿Qué quiere decir la línea: #define LED_BUITIN 2?</b>
+<br>Sirve para crear un nombre simbólico que será reemplazado por un valor antes de compilar el programa.
+
+<b>Qué quiere decir la línea delay(1000);?</b>
+<br> Detiene la ejecución del programa durante el tiempo indicado en milisegundos
