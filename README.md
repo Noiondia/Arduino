@@ -41,3 +41,8 @@ Caracteristicas del Arduino LEONARDO
 
 <b>Qué quiere decir la línea delay(1000);?</b>
 <br> Detiene la ejecución del programa durante el tiempo indicado en milisegundos
+
+
+ <H2>Diagrama de la primera actividad </H2>
+ <img width="834" height="594" alt="image" src="https://github.com/user-attachments/assets/62e6785a-e867-4cad-afb3-d81d598c7ab0" />
+
