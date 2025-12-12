@@ -46,3 +46,5 @@ Caracteristicas del Arduino LEONARDO
  <H2>Diagrama de la primera actividad </H2>
  <img width="834" height="594" alt="image" src="https://github.com/user-attachments/assets/62e6785a-e867-4cad-afb3-d81d598c7ab0" />
 
+<H2>Como se ve IRL</H2>
+<img width="629" height="839" alt="image" src="https://github.com/user-attachments/assets/10c0218a-8da7-4d9d-9825-f0767d120473" />
