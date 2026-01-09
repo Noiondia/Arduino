@@ -64,7 +64,7 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
 <H2>Diagrama de la primera actividad </H2>
  <br><img width="751" height="571" alt="image" src="https://github.com/user-attachments/assets/d080b47b-c0e4-4b19-a434-8de7cd015c99" />
 
- <H2>El codigo </H2>
+<H2>El codigo </H2>
 <H3><br>El codigo lo que hace es dictarle el tiempo de encendido y de apagado a los 3 leds haciendo que parezca un semaforo</H3>
  <br><img width="292" height="351" alt="image" src="https://github.com/user-attachments/assets/2d252c55-b276-44a2-940c-a43ca14bcee3" />
 
@@ -77,6 +77,7 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
  <img width="626" height="348" alt="image" src="https://github.com/user-attachments/assets/4132cc47-0846-4506-9bd9-986bc9fc64ce" />
 
  <H2>Diagrama de la primera actividad </H2>
+<img width="702" height="636" alt="image" src="https://github.com/user-attachments/assets/40037243-f8ef-481c-aef6-78a520fdf3ae" />
 
 
 
