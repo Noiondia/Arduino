@@ -70,3 +70,4 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
 
 <H2>Como se ve IRL</H2>
  <br><img width="551" height="735" alt="image" src="https://github.com/user-attachments/assets/9077eb3e-16e5-4d3e-ae0d-b2ad3ea0a3c2" />
+ <H1>Actividad lampara </H1>
