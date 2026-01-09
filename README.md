@@ -79,5 +79,11 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
  <H2>Diagrama de la primera actividad </H2>
 <img width="702" height="636" alt="image" src="https://github.com/user-attachments/assets/40037243-f8ef-481c-aef6-78a520fdf3ae" />
 
+ <H1>Actividad lampara </H1>
+ <img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/fff54609-2bca-438a-8b65-f329fa95e5d6" />
+ <img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/934cf606-5919-42f1-9150-fdaca66308af" />
+ <H2>Codigo</H2>
+ <img width="480" height="396" alt="image" src="https://github.com/user-attachments/assets/9bef12d5-243f-45a6-88e5-59261b2f3fba" />
 
-
+ <H2>Diagrama de la primera actividad </H2>
+<img width="702" height="636" alt="image" src="https://github.com/user-attachments/assets/40037243-f8ef-481c-aef6-78a520fdf3ae" />
