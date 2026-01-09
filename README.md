@@ -70,19 +70,29 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
 
 <H2>Como se ve IRL</H2>
  <br><img width="551" height="735" alt="image" src="https://github.com/user-attachments/assets/9077eb3e-16e5-4d3e-ae0d-b2ad3ea0a3c2" />
+
+ 
  <H1>Actividad botom+led </H1>
+<br> Para la actividad usamos cables, 2 resistencias de 10 oms y una de 220 oms y un boton.
+<br> La actividad consiste en cuando se le da al boton se encienda la luz.
  <img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/fff54609-2bca-438a-8b65-f329fa95e5d6" />
  <img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/934cf606-5919-42f1-9150-fdaca66308af" />
  <H2>Codigo</H2>
+  El codigo se basa en el uso de la variable if. Esta variante se usa para tomar decisiones ejecutando código solo si una condición es verdadera.
  <img width="626" height="348" alt="image" src="https://github.com/user-attachments/assets/4132cc47-0846-4506-9bd9-986bc9fc64ce" />
 
  <H2>Diagrama de la primera actividad </H2>
 <img width="702" height="636" alt="image" src="https://github.com/user-attachments/assets/40037243-f8ef-481c-aef6-78a520fdf3ae" />
 
+ 
+ 
  <H1>Actividad lampara </H1>
+ <br> Para la actividad usamos cables, 2 resistencias de 10 oms y una de 220 oms y un boton.
+ <br> La actividad consiste en cuando se le da al boton se encienda la luz y se mantiende encendida y cuando le das se apaga, como una lampara.
 <img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/934cf606-5919-42f1-9150-fdaca66308af" />
  <img width="577" height="769" alt="image" src="https://github.com/user-attachments/assets/fff54609-2bca-438a-8b65-f329fa95e5d6" />
  <H2>Codigo</H2>
+<br> El codigo se basa en el uso de la variable if. Esta variante se usa para tomar decisiones ejecutando código solo si una condición es verdadera.
  <img width="480" height="396" alt="image" src="https://github.com/user-attachments/assets/9bef12d5-243f-45a6-88e5-59261b2f3fba" />
 
  <H2>Diagrama de la primera actividad </H2>
