@@ -106,3 +106,8 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
 <br>El microcontrolador no apaga el LED automáticamente; simplemente deja de enviarle instrucciones nuevas.
 <br>Si el LED estaba en rojo antes de comentar la línea y volver a compilar, se quedará en rojo permanentemente. Si estaba apagado, seguirá apagado.
 <br>void loop() continuará ejecutándose infinitamente, pero al no tener la llamada a la función, no realizará ninguna acción física sobre los pines.
+
+<h1>RGB LED Controlado</h1>
+¿Qué función tendría que dejar de utilizar para evitar el cambio aleatorio de los colores dentro
+del ciclo infinito? Explique que hace dicha función.
+
