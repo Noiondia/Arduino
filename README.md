@@ -97,3 +97,12 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
 
  <H2>Diagrama de la primera actividad </H2>
 <img width="702" height="636" alt="image" src="https://github.com/user-attachments/assets/40037243-f8ef-481c-aef6-78a520fdf3ae" />
+
+
+<h1>Led RGB</h1>
+<h2>Diferencias</h2>
+<br>La diferencia que mas se nota al seria los jumpers, los LED de colores tienen solo 2, uno largo que sirve para recivir energia y el pequeño para que haga coriente. En cambio el LED RGB tiene 4 jumpers, el mas largo sirve para que la electricidad llegue y los otros serian para los diferentes colores.
+<br>Lo que pasaria seria que la secuencia de colores se invertiria
+<br>El microcontrolador no apaga el LED automáticamente; simplemente deja de enviarle instrucciones nuevas.
+<br>Si el LED estaba en rojo antes de comentar la línea y volver a compilar, se quedará en rojo permanentemente. Si estaba apagado, seguirá apagado.
+<br>void loop() continuará ejecutándose infinitamente, pero al no tener la llamada a la función, no realizará ninguna acción física sobre los pines.
