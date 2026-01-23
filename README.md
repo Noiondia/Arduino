@@ -113,7 +113,7 @@ del ciclo infinito? Explique que hace dicha función.
 
 <H1> ACTIVIDAD LED BAR</H1>
 Esto es un led BAR, es conjunto de luces led, cada cuadrado blanco, es una luz diferente, la cual encessita una resistencia y un jumper cada una.
-       <img width="214" height="175" alt="image" src="https://github.com/user-attachments/assets/be3c128b-3d73-4ba4-87fa-6e66c83b66ef" /> <br>
+       <img width="214" height="175" alt="image" src="https://github.com/user-attachments/assets/be3c128b-3d73-4ba4-87fa-6e66c83b66ef" /> 
        El objetivo de esta practica es que el led bar, se enciena a modo de escalera, se vayan encendiendo y apagando progresivamente.
        Para esta practica,  hemos necessitado 10 jumpers, 10 resistores y el Led bar.
        Esto es un diagrama de como ha quedado el ejercicio
