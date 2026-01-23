@@ -114,3 +114,4 @@ del ciclo infinito? Explique que hace dicha función.
 <H1> ACTIVIDAD LED BAR</H1>
 Esto es un led BAR, es conjunto de luces led, cada cuadrado blanco, es una luz diferente, la cual encessita una resistencia y un jumper cada una.
        <img width="214" height="175" alt="image" src="https://github.com/user-attachments/assets/be3c128b-3d73-4ba4-87fa-6e66c83b66ef" />
+       https://youtu.be/I5zgJqw_G10
