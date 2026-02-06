@@ -132,5 +132,5 @@ https://youtu.be/I5zgJqw_G10
 <H2>Código parte 2</H2>
 <br>El código configura la placa de arduino como un punto de acceso wifi a la que nos podemos conectar<br>
 <img width="757" height="540" alt="image" src="https://github.com/user-attachments/assets/64ba5707-e8de-44ae-80f9-e63212fe08ba" />
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/2c553ef8-7052-4eb4-bc2f-78ee104d3879" />
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/5426ccf1-8d3e-4af3-9695-cb829ba6c07c" />
+<img width="720" height="800" alt="image" src="https://github.com/user-attachments/assets/2c553ef8-7052-4eb4-bc2f-78ee104d3879" />
+<img width="720" height=800" alt="image" src="https://github.com/user-attachments/assets/5426ccf1-8d3e-4af3-9695-cb829ba6c07c" />
