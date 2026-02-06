@@ -64,8 +64,8 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
 <H2>Diagrama de la primera actividad </H2>
  <br><img width="751" height="571" alt="image" src="https://github.com/user-attachments/assets/d080b47b-c0e4-4b19-a434-8de7cd015c99" />
 
-<H2>El codigo </H2>
-<H3><br>El codigo lo que hace es dictarle el tiempo de encendido y de apagado a los 3 leds haciendo que parezca un semaforo</H3>
+<H2>El código </H2>
+<H3><br>El código lo que hace es dictarle el tiempo de encendido y de apagado a los 3 leds haciendo que parezca un semáforo</H3>
  <br><img width="292" height="351" alt="image" src="https://github.com/user-attachments/assets/2d252c55-b276-44a2-940c-a43ca14bcee3" />
 
 <H2>Como se ve IRL</H2>
@@ -101,7 +101,7 @@ de la pila. ¿Qué ocurre con el led: parpadea?</b>
 
 <h1>Led RGB</h1>
 <h2>Diferencias</h2>
-<br>La diferencia que mas se nota al seria los jumpers, los LED de colores tienen solo 2, uno largo que sirve para recivir energia y el pequeño para que haga coriente. En cambio el LED RGB tiene 4 jumpers, el mas largo sirve para que la electricidad llegue y los otros serian para los diferentes colores.
+<br>La diferencia que mas se nota al seria los jumpers, los LED de colores tienen solo 2, uno largo que sirve para recibir energia y el pequeño para que haga coriente. En cambio el LED RGB tiene 4 jumpers, el mas largo sirve para que la electricidad llegue y los otros serian para los diferentes colores.
 <br>Lo que pasaria seria que la secuencia de colores se invertiria
 <br>El microcontrolador no apaga el LED automáticamente; simplemente deja de enviarle instrucciones nuevas.
 <br>Si el LED estaba en rojo antes de comentar la línea y volver a compilar, se quedará en rojo permanentemente. Si estaba apagado, seguirá apagado.
@@ -123,3 +123,14 @@ Esto es un diagrama de como ha quedado el ejercicio <br></br>
 Así es como ha quedado el ejercicio
 https://youtu.be/I5zgJqw_G10
 
+<h1>Wifi</h1>
+<br>La primera parte de la práctica consiste en conectar el arduino a una red wifi, mientras que en la segunda tenemos que utilizar el arduino como un access point<br>
+<br>Los materiales utilizados han sido la placa de arduino y el cable<br>
+<H2>Código</H2>
+<br>El código configura la placa de arduino en modo estación para conectarse a una red wifi<br>
+<img width="757" height="540" alt="image" src="https://github.com/user-attachments/assets/80ca3239-4b09-4095-813e-7dd64f69f31c" />
+<H2>Código parte 2</H2>
+<br>El código configura la placa de arduino como un punto de acceso wifi a la que nos podemos conectar<br>
+<img width="757" height="540" alt="image" src="https://github.com/user-attachments/assets/64ba5707-e8de-44ae-80f9-e63212fe08ba" />
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/2c553ef8-7052-4eb4-bc2f-78ee104d3879" />
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/5426ccf1-8d3e-4af3-9695-cb829ba6c07c" />
