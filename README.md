@@ -135,15 +135,10 @@ https://youtu.be/I5zgJqw_G10
 <img width="720" height="800" alt="image" src="https://github.com/user-attachments/assets/2c553ef8-7052-4eb4-bc2f-78ee104d3879" />
 <img width="720" height=800" alt="image" src="https://github.com/user-attachments/assets/5426ccf1-8d3e-4af3-9695-cb829ba6c07c" />
 
-<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/81f33940-fac1-44fb-9911-be5a94200d20" />
-<img width="2048" height="1152" alt="image" src="https://github.com/user-attachments/assets/149972ed-cedb-445f-a705-ac9cce93cdbf" />
-<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/697cf988-01a3-4fb4-958e-0948339844e5" />
-<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/4c5f5cc6-f54b-4e9f-b245-aac85e0b4c98" />
-<img width="1148" height="2040" alt="image" src="https://github.com/user-attachments/assets/da14a9b0-8651-4aa5-a86f-5afecca5be51" />
-<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/9b4a3f89-8145-4e9c-9173-a6a9279b5408" />
-<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/7a9202d3-ab60-4f9e-8278-9e80b13713d5" />
-<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/fb8005b4-65ca-49d5-a8cf-1d80e39cd133" />
-<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/df42b182-4a5e-4a50-acaf-dd48d908c336" />
-<img width="318" height="360" alt="image" src="https://github.com/user-attachments/assets/aefecf66-8853-4353-aeca-1dc7418130c2" />
-<img width="576" height="450" alt="image" src="https://github.com/user-attachments/assets/a77e0ea5-ac1c-44bf-9af6-e73acb09f5f3" />
+<h1>Serial IO</h1>
+<br>La primera parte de la práctica consiste en conectar el arduino a una pequeña pantalla y con el código lograr que el mensaje Hello world, junto con el tiempo que ha tardado en ejecutarse se haga visible en esta<br>
+<br>Los materiales utilizados han sido la placa de arduino, el cable y la pantalla<br>
+<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/1561e388-5708-416b-8a04-d4e6ace7b74e" />
 
+<br>La segunda parte de la práctca va de conectar nuevamente una pantalla a la placa arduino y esta vez hacer que la temperatura y humedad de la sala aparezcan en la pantalla<br>
+<img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/cef20aea-9945-4df9-96cc-7b4a0005419d" />
