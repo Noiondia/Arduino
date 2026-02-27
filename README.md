@@ -142,3 +142,11 @@ https://youtu.be/I5zgJqw_G10
 
 <br>La segunda parte de la práctca va de conectar nuevamente una pantalla a la placa arduino y esta vez hacer que la temperatura y humedad de la sala aparezcan en la pantalla<br>
 <img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/cef20aea-9945-4df9-96cc-7b4a0005419d" />
+
+
+
+ <H1>Proyecto calamardo en una silla</H1>
+ <H2>Idea</H2>
+ Nuestra idea fue hacer una silla motorizada donde se pueda sentar calamardo y de mientras suene una cancion.
+ <H2>Lista de materiales</H2>
+ 
