@@ -148,23 +148,30 @@ https://youtu.be/I5zgJqw_G10
 
 
 <H1>Proyecto calamardo en una silla</H1>
+
 <H2>Presentación de la idea</H2>
 <br>Nuestra idea principal es hacer un mecanismo que consista en una silla motorizada, la qual funcione como un coche teledirigido, pueda avanzar, girar y tirar marcha atrás, la gracia del proyecto, es que en vez de un coche, será una silla, con un muñeco de calamardo, y un altavoz que suene la canción "squidward on a chair", en resumen, la idea del proyecto es simular el meme Calamardo en una silla.
 <br><a href="https://youtu.be/xWILHcsYVj8">Meme calamardo en una silla</a>
+
 <H2>Objetivos del Proyecto</H2>
 <br>El objetivo principal del proyecto, es hacer una silla motorizada, controlada remotamente con un mando a distancia que incluyen el kit de coche arduino, y que la silla pueda reproducir audios.
+
 <H2> Metodología de Trabajo</H2>
 <br>Primero tenemos que imprir la silla en 3D.
 <br>Mientras la silla se imprime uno va mirando el como construir la infraestructura tecnica del arduino.
 <br>Por ultimo seria hacer el codigo y conpilarlo dentro del arduino para que funcione.
+
 <H2>Recursos Disponibles</H2>
-<br>Geminis.
-<br>El manual de ayuda del coche.
+<br>Diversas inteligencias artificiales.
+<br>Manual de ayuda de arduinos.
+<br>Manual incluido con el coche arduino
+<br>Arduino-ide.
+
 <H2>Desafíos y Soluciones Previstas</H2>
 <br>Algunos desafio sera construir el propio coche ya que es algo complejo, tambien que el coche queremos que parezca un silla y no tanto un coche. Pasa lo mismo con la programacion, aunque tenemos herramientas, como la IA, que nos pueden ayudar va a ser un reto.
 # 🛠️ Lista de Materiales: Proyecto Squidward on a Chair
 
-A continuación se detallan los componentes necesarios para la construcción de la silla de ruedas motorizada controlada por ESP32.
+<br><H2>Materiales necesarios.</H2>
 
 ### 1. Componentes del Kit (Freenove FNK0061)
 | Componente | Función en el proyecto | Estado |
