@@ -163,7 +163,6 @@ https://youtu.be/I5zgJqw_G10
 <H2>Desafíos y Soluciones Previstas</H2>
 <br>Algunos desafio sera construir el propio coche ya que es algo complejo, tambien que el coche queremos que parezca un silla y no tanto un coche. Pasa lo mismo con la programacion, aunque tenemos herramientas, como la IA, que nos pueden ayudar va a ser un reto.
 <!DOCTYPE html>
-<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Materiales - Proyecto Squidward on a Chair</title>
@@ -178,9 +177,6 @@ https://youtu.be/I5zgJqw_G10
         .kit { color: #27ae60; font-weight: bold; }
         .extra { color: #e67e22; font-weight: bold; }
     </style>
-</head>
-<body>
-
     <h1>Proyecto: Squidward on a Chair (ESP32)</h1>
     <p>Lista completa de materiales necesarios para construir la silla de ruedas motorizada con música del meme de Calamardo.</p>
 
@@ -282,6 +278,3 @@ https://youtu.be/I5zgJqw_G10
             </tr>
         </tbody>
     </table>
-
-</body>
-</html>
