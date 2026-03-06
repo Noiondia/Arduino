@@ -177,16 +177,16 @@ A continuación se detallan los componentes necesarios para la construcción de 
 ### 2. Componentes Adicionales (Hardware y Movimiento)
 | Componente | Función en el proyecto | Estado |
 | :--- | :--- | :--- |
-| **2x Motores DC** | Motores amarillos con reductora para la tracción. | 🛒 Necesario |
-| **Controlador L298N** | Puente H para manejar la dirección y potencia de los motores. | 🛒 Necesario |
-| **Rueda Loca** | Punto de apoyo delantero para permitir giros de 360°. | 🛒 Necesario |
-| **Portapilas (6V-9V)** | Alimentación independiente para motores y ESP32. | 🛒 Necesario |
+| **2x Motores DC** | Motores amarillos con reductora para la tracción. |  Necesario |
+| **Controlador L298N** | Puente H para manejar la dirección y potencia de los motores. |  Necesario |
+| **Rueda Loca** | Punto de apoyo delantero para permitir giros de 360°. |  Necesario |
+| **Portapilas (6V-9V)** | Alimentación independiente para motores y ESP32. |  Necesario |
 
 ### 3. Sistema de Audio y Estética
 | Componente | Función en el proyecto | Estado |
 | :--- | :--- | :--- |
-| **Módulo Micro SD** | Lector SPI para el archivo de audio (.wav) del meme. | 🛒 Necesario |
-| **Altavoz + PAM8403** | Salida de audio amplificada para el sonido. | 🛒 Necesario |
-| **Chasis / Silla** | Estructura física (Madera, cartón pluma o 3D). | 🛒 Necesario |
-| **Figura Calamardo** | El protagonista del meme. | 🛒 Necesario |
-                <td>Módulo Micro
+| **Módulo Micro SD** | Lector SPI para el archivo de audio (.wav) del meme. |  Necesario |
+| **Altavoz + PAM8403** | Salida de audio amplificada para el sonido. |  Necesario |
+| **Chasis / Silla** | Estructura física (Madera, cartón pluma o 3D). |  Necesario |
+| **Figura Calamardo** | El protagonista del meme. |  Necesario |
+              
