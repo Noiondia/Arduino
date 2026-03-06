@@ -149,7 +149,7 @@ https://youtu.be/I5zgJqw_G10
 
 <H1>Proyecto calamardo en una silla</H1>
 <H2>Presentación de la idea</H2>
-<br>Nuestra idea fue hacer una silla motorizada donde se pueda sentar calamardo y de mientras suene una cancion.
+<br>Nuestra idea principal es crear una silla motorizada donde se pueda sentar un peluche de calamardo mientras que por un altavoz suena una cancion cancion.
 <H2>Objetivos del Proyecto</H2>
 <br>Aprender a construir y programar un coche con arduinos.
 <H2> Metodología de Trabajo</H2>
