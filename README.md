@@ -150,7 +150,7 @@ https://youtu.be/I5zgJqw_G10
 <H1>Proyecto calamardo en una silla</H1>
 <H2>Presentación de la idea</H2>
 <br>Nuestra idea principal es hacer un mecanismo que consista en una silla motorizada, la qual funcione como un coche teledirigido, pueda avanzar, girar y tirar marcha atrás, la gracia del proyecto, es que en vez de un coche, será una silla, con un muñeco de calamardo, y un altavoz que suene la canción "squidward on a chair", en resumen, la idea del proyecto es simular el meme Calamardo en una silla.
-<br><a href=(https://youtu.be/xWILHcsYVj8)Meme calamardo en una silla></a>
+<br><a href=(https://youtu.be/xWILHcsYVj8)>Meme calamardo en una silla</a>
 <H2>Objetivos del Proyecto</H2>
 <br>Aprender a construir y programar un coche con arduinos.
 <H2> Metodología de Trabajo</H2>
