@@ -162,4 +162,126 @@ https://youtu.be/I5zgJqw_G10
 <br>El manual de ayuda del coche.
 <H2>Desafíos y Soluciones Previstas</H2>
 <br>Algunos desafio sera construir el propio coche ya que es algo complejo, tambien que el coche queremos que parezca un silla y no tanto un coche. Pasa lo mismo con la programacion, aunque tenemos herramientas, como la IA, que nos pueden ayudar va a ser un reto.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Materiales - Proyecto Squidward on a Chair</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: auto; padding: 20px; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; }
+        h2 { color: #2980b9; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f4f4f4; color: #2c3e50; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .kit { color: #27ae60; font-weight: bold; }
+        .extra { color: #e67e22; font-weight: bold; }
+    </style>
+</head>
+<body>
 
+    <h1>Proyecto: Squidward on a Chair (ESP32)</h1>
+    <p>Lista completa de materiales necesarios para construir la silla de ruedas motorizada con música del meme de Calamardo.</p>
+
+    <h2>1. Componentes del Kit (Freenove FNK0061)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Componente</th>
+                <th>Función en el proyecto</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Placa ESP32</td>
+                <td>Cerebro del robot. Controla movimiento, audio y conexión WiFi/Bluetooth.</td>
+                <td class="kit">Incluido</td>
+            </tr>
+            <tr>
+                <td>Protoboard</td>
+                <td>Base para realizar las conexiones de prueba sin soldadura.</td>
+                <td class="kit">Incluido</td>
+            </tr>
+            <tr>
+                <td>Cables Jumper</td>
+                <td>Conexiones eléctricas entre los diferentes módulos.</td>
+                <td class="kit">Incluido</td>
+            </tr>
+            <tr>
+                <td>Cable USB</td>
+                <td>Programación y alimentación inicial desde el PC.</td>
+                <td class="kit">Incluido</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. Componentes Adicionales (Hardware y Movimiento)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Componente</th>
+                <th>Función en el proyecto</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2x Motores DC (Amarillos)</td>
+                <td>Proporcionan la tracción a las ruedas principales.</td>
+                <td class="extra">Necesario</td>
+            </tr>
+            <tr>
+                <td>Controlador L298N</td>
+                <td>Puente H para manejar la dirección y potencia de los motores.</td>
+                <td class="extra">Necesario</td>
+            </tr>
+            <tr>
+                <td>Rueda Loca (Caster)</td>
+                <td>Punto de apoyo delantero para permitir giros de 360°.</td>
+                <td class="extra">Necesario</td>
+            </tr>
+            <tr>
+                <td>Portapilas (6V-9V)</td>
+                <td>Alimentación independiente para motores y ESP32.</td>
+                <td class="extra">Necesario</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Sistema de Audio y Estética</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Componente</th>
+                <th>Función en el proyecto</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Módulo Micro SD (SPI)</td>
+                <td>Almacenamiento del archivo de audio (.wav) del meme.</td>
+                <td class="extra">Necesario</td>
+            </tr>
+            <tr>
+                <td>Altavoz (8Ω) + PAM8403</td>
+                <td>Salida de audio amplificada para que la música se escuche bien.</td>
+                <td class="extra">Necesario</td>
+            </tr>
+            <tr>
+                <td>Chasis / Base</td>
+                <td>Estructura física de la silla (Madera, cartón pluma o 3D).</td>
+                <td class="extra">Necesario</td>
+            </tr>
+            <tr>
+                <td>Figura de Calamardo</td>
+                <td>El protagonista del meme.</td>
+                <td class="extra">Necesario</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
