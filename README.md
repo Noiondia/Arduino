@@ -144,6 +144,7 @@ https://youtu.be/I5zgJqw_G10
 <br>La segunda parte de la práctca va de conectar nuevamente una pantalla a la placa arduino y esta vez hacer que la temperatura y humedad de la sala aparezcan en la pantalla<br>
 <img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/cef20aea-9945-4df9-96cc-7b4a0005419d" />
 </details>
+<img width="755" height="556" alt="image" src="https://github.com/user-attachments/assets/622a1a27-3e32-4dfd-94cf-877f895a5198" />
 
 
 <H1>Proyecto calamardo en una silla</H1>
@@ -160,5 +161,4 @@ Geminis.
 El manual de ayuda del coche.
 <H2>Desafíos y Soluciones Previstas</H2>
 Algunos desafio sera construir el propio coche ya que es algo complejo, tambien que el coche queremos que parezca un silla y no tanto un coche. Pasa lo mismo con la programacion, aunque tenemos herramientas, como la IA, que nos pueden ayudar va a ser un reto.
-<img width="755" height="556" alt="image" src="https://github.com/user-attachments/assets/622a1a27-3e32-4dfd-94cf-877f895a5198" />
 
