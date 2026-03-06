@@ -162,82 +162,31 @@ https://youtu.be/I5zgJqw_G10
 <br>El manual de ayuda del coche.
 <H2>Desafíos y Soluciones Previstas</H2>
 <br>Algunos desafio sera construir el propio coche ya que es algo complejo, tambien que el coche queremos que parezca un silla y no tanto un coche. Pasa lo mismo con la programacion, aunque tenemos herramientas, como la IA, que nos pueden ayudar va a ser un reto.
-<section id="lista-materiales">
-    <h2>1. Componentes del Kit (Freenove FNK0061)</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Componente</th>
-                <th>Función en el proyecto</th>
-                <th>Estado</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Placa ESP32</td>
-                <td>Cerebro del robot. Controla movimiento, audio y conexión WiFi/Bluetooth.</td>
-                <td class="kit">Incluido</td>
-            </tr>
-            <tr>
-                <td>Protoboard</td>
-                <td>Base para realizar las conexiones de prueba sin soldadura.</td>
-                <td class="kit">Incluido</td>
-            </tr>
-            <tr>
-                <td>Cables Jumper</td>
-                <td>Conexiones eléctricas entre los diferentes módulos.</td>
-                <td class="kit">Incluido</td>
-            </tr>
-            <tr>
-                <td>Cable USB</td>
-                <td>Programación y alimentación inicial desde el PC.</td>
-                <td class="kit">Incluido</td>
-            </tr>
-        </tbody>
-    </table>
+# 🛠️ Lista de Materiales: Proyecto Squidward on a Chair
 
-    <h2>2. Componentes Adicionales (Hardware y Movimiento)</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Componente</th>
-                <th>Función en el proyecto</th>
-                <th>Estado</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2x Motores DC (Amarillos)</td>
-                <td>Proporcionan la tracción a las ruedas principales.</td>
-                <td class="extra">Necesario</td>
-            </tr>
-            <tr>
-                <td>Controlador L298N</td>
-                <td>Puente H para manejar la dirección y potencia de los motores.</td>
-                <td class="extra">Necesario</td>
-            </tr>
-            <tr>
-                <td>Rueda Loca (Caster)</td>
-                <td>Punto de apoyo delantero para permitir giros de 360°.</td>
-                <td class="extra">Necesario</td>
-            </tr>
-            <tr>
-                <td>Portapilas (6V-9V)</td>
-                <td>Alimentación independiente para motores y ESP32.</td>
-                <td class="extra">Necesario</td>
-            </tr>
-        </tbody>
-    </table>
+A continuación se detallan los componentes necesarios para la construcción de la silla de ruedas motorizada controlada por ESP32.
 
-    <h2>3. Sistema de Audio y Estética</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Componente</th>
-                <th>Función en el proyecto</th>
-                <th>Estado</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+### 1. Componentes del Kit (Freenove FNK0061)
+| Componente | Función en el proyecto | Estado |
+| :--- | :--- | :--- |
+| **Placa ESP32** | Cerebro del robot. Controla movimiento, audio y WiFi/Bluetooth. | ✅ Incluido |
+| **Protoboard** | Base para realizar las conexiones de prueba sin soldadura. | ✅ Incluido |
+| **Cables Jumper** | Conexiones eléctricas entre los diferentes módulos. | ✅ Incluido |
+| **Cable USB** | Programación y alimentación inicial desde el PC. | ✅ Incluido |
+
+### 2. Componentes Adicionales (Hardware y Movimiento)
+| Componente | Función en el proyecto | Estado |
+| :--- | :--- | :--- |
+| **2x Motores DC** | Motores amarillos con reductora para la tracción. | 🛒 Necesario |
+| **Controlador L298N** | Puente H para manejar la dirección y potencia de los motores. | 🛒 Necesario |
+| **Rueda Loca** | Punto de apoyo delantero para permitir giros de 360°. | 🛒 Necesario |
+| **Portapilas (6V-9V)** | Alimentación independiente para motores y ESP32. | 🛒 Necesario |
+
+### 3. Sistema de Audio y Estética
+| Componente | Función en el proyecto | Estado |
+| :--- | :--- | :--- |
+| **Módulo Micro SD** | Lector SPI para el archivo de audio (.wav) del meme. | 🛒 Necesario |
+| **Altavoz + PAM8403** | Salida de audio amplificada para el sonido. | 🛒 Necesario |
+| **Chasis / Silla** | Estructura física (Madera, cartón pluma o 3D). | 🛒 Necesario |
+| **Figura Calamardo** | El protagonista del meme. | 🛒 Necesario |
                 <td>Módulo Micro
