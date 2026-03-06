@@ -1,6 +1,7 @@
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/bd7dc337-da56-4ee3-ba31-dc982370c7a9" />
 
-
+<details>
+<summary><h2><b>Actividades arduinos.</b></h2></summary>
 <b>¿Qué es Arduino?</b>
 <br>Arduino es una plataforma de hardware y software de codigo abierto que permite crear objetos electronicos interactivos.
 
@@ -142,7 +143,7 @@ https://youtu.be/I5zgJqw_G10
 
 <br>La segunda parte de la práctca va de conectar nuevamente una pantalla a la placa arduino y esta vez hacer que la temperatura y humedad de la sala aparezcan en la pantalla<br>
 <img width="2040" height="1148" alt="image" src="https://github.com/user-attachments/assets/cef20aea-9945-4df9-96cc-7b4a0005419d" />
-
+</details>
 
 
  <H1>Proyecto calamardo en una silla</H1>
