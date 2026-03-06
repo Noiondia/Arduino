@@ -149,16 +149,16 @@ https://youtu.be/I5zgJqw_G10
 
 <H1>Proyecto calamardo en una silla</H1>
 <H2>Presentación de la idea</H2>
-Nuestra idea fue hacer una silla motorizada donde se pueda sentar calamardo y de mientras suene una cancion.
+<br>Nuestra idea fue hacer una silla motorizada donde se pueda sentar calamardo y de mientras suene una cancion.
 <H2>Objetivos del Proyecto</H2>
-Aprender a construir y programar un coche con arduinos.
+<br>Aprender a construir y programar un coche con arduinos.
 <H2> Metodología de Trabajo</H2>
-Primero tenemos que imprir la silla en 3D.
-Mientras la silla se imprime uno va mirando el como construir la infraestructura tecnica del arduino.
-Por ultimo seria hacer el codigo y conpilarlo dentro del arduino para que funcione.
+<br>Primero tenemos que imprir la silla en 3D.
+<br>Mientras la silla se imprime uno va mirando el como construir la infraestructura tecnica del arduino.
+<br>Por ultimo seria hacer el codigo y conpilarlo dentro del arduino para que funcione.
 <H2>Recursos Disponibles</H2>
-Geminis.
-El manual de ayuda del coche.
+<br>Geminis.
+<br>El manual de ayuda del coche.
 <H2>Desafíos y Soluciones Previstas</H2>
-Algunos desafio sera construir el propio coche ya que es algo complejo, tambien que el coche queremos que parezca un silla y no tanto un coche. Pasa lo mismo con la programacion, aunque tenemos herramientas, como la IA, que nos pueden ayudar va a ser un reto.
+<br>Algunos desafio sera construir el propio coche ya que es algo complejo, tambien que el coche queremos que parezca un silla y no tanto un coche. Pasa lo mismo con la programacion, aunque tenemos herramientas, como la IA, que nos pueden ayudar va a ser un reto.
 
