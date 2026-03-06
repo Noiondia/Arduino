@@ -1,7 +1,7 @@
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/bd7dc337-da56-4ee3-ba31-dc982370c7a9" />
 
 <details>
-<summary><h2><b>Actividades arduinos.</b></h2></summary>
+<summary><h1><b>Actividades arduinos.</b></h1></summary>
 <b>¿Qué es Arduino?</b>
 <br>Arduino es una plataforma de hardware y software de codigo abierto que permite crear objetos electronicos interactivos.
 
