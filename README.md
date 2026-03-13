@@ -197,3 +197,6 @@ https://youtu.be/I5zgJqw_G10
 | **Chasis / Silla** | Estructura física (Madera, cartón pluma o 3D). |  Necesario |
 | **Figura Calamardo** | El protagonista del meme. |  Necesario |
               
+<H2>Esquema eléctrico</H2>
+<img width="1222" height="1321" alt="image" src="https://github.com/user-attachments/assets/e2ce28a3-4e0c-4e98-b9ce-29337aeac6d6" />
+<br>Aquí en el esquema se puede ver a donde irían conectados los motores, las baterías y el sensor ultrasónico. El altavoz, que no aparece en la imágen, iría conectado el VCC al pin V y el GND al pin G. El pin de datos del módulo a los pines digitales 10 y 11 y el altavoz iría directamente conectado a las terminales de salida del módulo amplificador.
