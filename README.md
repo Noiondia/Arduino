@@ -200,3 +200,120 @@ https://youtu.be/I5zgJqw_G10
 <H2>Esquema eléctrico</H2>
 <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/e2ce28a3-4e0c-4e98-b9ce-29337aeac6d6" />
 <br>Aquí en el esquema se puede ver a donde irían conectados los motores, las baterías y el sensor ultrasónico. El altavoz, que no aparece en la imágen, iría conectado el VCC al pin V y el GND al pin G. El pin de datos del módulo a los pines digitales 10 y 11 y el altavoz iría directamente conectado a las terminales de salida del módulo amplificador.
+
+
+
+
+
+
+<h1>Keyestudio 4WD BT Car V2.0 - Código Optimizado</h1>
+Código para controlar el coche Keyestudio 4WD Car usando un mando IR, reproduciendo música en segundo plano sin ralentizar los motores.
+
+```
+/*
+ * Keyestudio 4WD BT Car V2.0
+ * Música en pin A3 + Motores a velocidad máxima (255)
+ */ 
+
+#include <IRremote.h>
+
+// NOTAS MUSICALES
+#define NOTE_C4  262
+#define NOTE_D4  294
+#define NOTE_E4  330
+#define NOTE_F4  349
+#define NOTE_G4  392
+#define NOTE_A4  440
+#define NOTE_B4  494
+#define NOTE_C5  523
+#define NOTE_D5  587
+#define NOTE_E5  659
+#define NOTE_G5  784
+
+// CONFIGURACIÓN DE PINES
+const int PIN_ALTAVOZ = A3; 
+int RECV_PIN = 3;
+IRrecv irrecv(RECV_PIN);
+decode_results results;
+long irr_val;
+
+int cancionActual = 1; 
+int notaCambiada = 0; 
+
+#define SCL_Pin A5
+#define SDA_Pin A4
+#define ML_Ctrl 4  // Dirección Izquierda
+#define ML_PWM  5  // Velocidad Izquierda (PWM)
+#define MR_Ctrl 2  // Dirección Derecha
+#define MR_PWM  6  // Velocidad Derecha (PWM)
+
+// Gráficos para la Matriz LED
+unsigned char start01[] = {0x01,0x02,0x04,0x08,0x10,0x20,0x40,0x80,0x80,0x40,0x20,0x10,0x08,0x04,0x02,0x01};
+unsigned char front[]   = {0x00,0x00,0x00,0x00,0x00,0x24,0x12,0x09,0x12,0x24,0x00,0x00,0x00,0x00,0x00,0x00};
+unsigned char back[]    = {0x00,0x00,0x00,0x00,0x00,0x24,0x48,0x90,0x48,0x24,0x00,0x00,0x00,0x00,0x00,0x00};
+unsigned char left[]    = {0x00,0x00,0x00,0x00,0x00,0x00,0x44,0x28,0x10,0x44,0x28,0x10,0x44,0x28,0x10,0x00};
+unsigned char right[]   = {0x00,0x10,0x28,0x44,0x10,0x28,0x44,0x10,0x28,0x44,0x00,0x00,0x00,0x00,0x00,0x00};
+unsigned char STOP01[]  = {0x2E,0x2A,0x3A,0x00,0x02,0x3E,0x02,0x00,0x3E,0x22,0x3E,0x00,0x3E,0x0A,0x0E,0x00};
+unsigned char clear[]   = {0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
+
+// CONTROL DE PANTALLA
+void IIC_start() { digitalWrite(SCL_Pin, HIGH); delayMicroseconds(3); digitalWrite(SDA_Pin, HIGH); delayMicroseconds(3); digitalWrite(SDA_Pin, LOW); delayMicroseconds(3); }
+void IIC_send(unsigned char d) { for(char i=0; i<8; i++) { digitalWrite(SCL_Pin, LOW); delayMicroseconds(3); if(d & 0x01) { digitalWrite(SDA_Pin, HIGH); } else { digitalWrite(SDA_Pin, LOW); } delayMicroseconds(3); digitalWrite(SCL_Pin, HIGH); delayMicroseconds(3); d = d >> 1; } }
+void IIC_end() { digitalWrite(SCL_Pin, LOW); delayMicroseconds(3); digitalWrite(SDA_Pin, LOW); delayMicroseconds(3); digitalWrite(SCL_Pin, HIGH); delayMicroseconds(3); digitalWrite(SDA_Pin, HIGH); delayMicroseconds(3); }
+void matrix_display(unsigned char m[]) { IIC_start(); IIC_send(0xc0); for(int i=0; i<16; i++) { IIC_send(m[i]); } IIC_end(); IIC_start(); IIC_send(0x8A); IIC_end(); }
+
+// MOVIMIENTOS A VELOCIDAD MÁXIMA (255)
+void car_front() { digitalWrite(ML_Ctrl, HIGH); analogWrite(ML_PWM, 255); digitalWrite(MR_Ctrl, HIGH); analogWrite(MR_PWM, 255); }
+void car_back()  { digitalWrite(ML_Ctrl, LOW);  analogWrite(ML_PWM, 255); digitalWrite(MR_Ctrl, LOW);  analogWrite(MR_PWM, 255); }
+void car_left()  { digitalWrite(ML_Ctrl, LOW);  analogWrite(ML_PWM, 255); digitalWrite(MR_Ctrl, HIGH); analogWrite(MR_PWM, 255); }
+void car_right() { digitalWrite(ML_Ctrl, HIGH); analogWrite(ML_PWM, 255); digitalWrite(MR_Ctrl, LOW);  analogWrite(MR_PWM, 255); }
+void car_Stop()  { analogWrite(ML_PWM, 0); analogWrite(MR_PWM, 0); }
+
+// GENERADOR DE SONIDO MANUAL
+void tocarNotaManual(int pin, int freq, int dur) {
+  if (freq == 0) { delay(dur); return; }
+  long per = 1000000L / freq; long t_esp = per / 2; long cic = (long)dur * 1000L / per;
+  for (long i = 0; i < cic; i++) { digitalWrite(pin, HIGH); delayMicroseconds(t_esp); digitalWrite(pin, LOW); delayMicroseconds(t_esp); }
+}
+
+// LECTURA RECEPTOR IR
+void comprobarMando() {
+  if (irrecv.decode(&results)) {
+    irr_val = results.value;
+    if (irr_val != 0xFFFFFFFF && irr_val != 0xFFFFFF) {
+      switch(irr_val) {
+        case 0xFF629D : car_front(); matrix_display(front); break;
+        case 0xFFA857 : car_back(); matrix_display(back); break;
+        case 0xFF22DD : car_left(); matrix_display(left); break;
+        case 0xFFC23D : car_right(); matrix_display(right); break;
+        case 0xFF02FD : car_Stop(); matrix_display(STOP01); break;
+        case 0xFF30CF : cancionActual = 1; notaCambiada = 1; break; 
+        case 0xFF18E7 : cancionActual = 2; notaCambiada = 1; break; 
+        default: cancionActual = 0; notaCambiada = 1; digitalWrite(PIN_ALTAVOZ, LOW); break;
+      }
+    }
+    irrecv.resume();
+  }
+}
+
+// REPRODUCCIÓN MULTITAREA
+void tocarButterfly() {
+  int mel[] = {NOTE_E5, NOTE_D5, NOTE_C5, NOTE_D5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_D5, NOTE_C5, NOTE_D5, NOTE_C5, NOTE_A4, NOTE_C5, NOTE_D5, NOTE_D5, NOTE_D5, NOTE_E5, NOTE_D5, NOTE_C5, NOTE_C5, NOTE_C5, NOTE_D5, NOTE_C5};
+  int dur[] = {200, 200, 200, 200, 400, 400, 200, 200, 200, 200, 600, 200, 200, 200, 200, 200, 200, 400, 200, 200, 200, 200, 600};
+  for (int i = 0; i < 23; i++) {
+    if (cancionActual != 1 || notaCambiada) { notaCambiada = 0; return; }
+    tocarNotaManual(PIN_ALTAVOZ, mel[i], dur[i]);
+    int t_p = dur[i] * 0.20;
+    for (int p = 0; p
+```
+
+
+
+<h2>Cómo funciona </h2>
+<br>Pines de Motores: Los pines 4 y 2 definen el sentido de marcha de las ruedas izquierdas y derechas. Los pines 5 y 6 regulan la velocidad mediante señales PWM.
+
+
+
+<h1>Fotos del proyeto final</h1>
+
+<img width="3072" height="4096" alt="image" src="https://github.com/user-attachments/assets/e9d5cc1f-99fa-466d-86b0-6edf711a62c0" />
